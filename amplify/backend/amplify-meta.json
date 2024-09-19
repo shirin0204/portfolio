@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-portfolio-dev-5d181-authRole",
+      "UnauthRoleArn": "arn:aws:iam::980921721824:role/amplify-portfolio-dev-5d181-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::980921721824:role/amplify-portfolio-dev-5d181-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-portfolio-dev-5d181-deployment",
+      "UnauthRoleName": "amplify-portfolio-dev-5d181-unauthRole",
+      "StackName": "amplify-portfolio-dev-5d181",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:980921721824:stack/amplify-portfolio-dev-5d181/e3f3cfe0-7598-11ef-b459-068b2b97345f",
+      "AmplifyAppId": "d2tn84f8gs2h24"
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-portfolio-dev-5d181-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2024-09-19T03:32:28.821Z",
+      "output": {
+        "CloudFrontSecureURL": "https://d1kuwyahrhhhs6.cloudfront.net",
+        "S3BucketSecureURL": "https://portfolio-20240919122646-hostingbucket-dev.s3.amazonaws.com",
+        "CloudFrontOriginAccessIdentity": "EE4RLWF59D7FH",
+        "WebsiteURL": "http://portfolio-20240919122646-hostingbucket-dev.s3-website-ap-northeast-1.amazonaws.com",
+        "CloudFrontDistributionID": "E2ZAEU1C0MLV1W",
+        "Region": "ap-northeast-1",
+        "HostingBucketName": "portfolio-20240919122646-hostingbucket-dev",
+        "CloudFrontDomainName": "d1kuwyahrhhhs6.cloudfront.net"
+      },
+      "lastPushDirHash": "hsCAxQTupMRUQSJp+oCb3xczz8w="
+    }
+  }
+}
